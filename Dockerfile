@@ -1,6 +1,4 @@
-FROM beevelop/java
-
-MAINTAINER Maik Hummel <m@ikhummel.com>
+FROM eaze/android
 
 ENV ANDROID_SDK_URL="https://dl.google.com/android/repository/tools_r25.2.5-linux.zip" \
     ANDROID_BUILD_TOOLS_VERSION=25.0.3 \
